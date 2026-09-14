@@ -1,2 +1,2 @@
-var el = document .querySelector("ul").children[0].children[0];
+var el = document .querySelector("#list a");
 el.style.color = "red";
