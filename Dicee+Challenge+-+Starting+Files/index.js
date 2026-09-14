@@ -21,4 +21,4 @@ if (num1 > num2) {
     document.querySelector("h1").innerHTML = "It's a Draw!";
     document.querySelector(".img1").setAttribute("src", img[num1]);
     document.querySelector(".img2").setAttribute("src", img[num2]);
-};
+}
