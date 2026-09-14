@@ -1,9 +1,9 @@
-var img1 = "images\dice1.png";
-var img2 = "images\dice2.png";
-var img3 = "images\dice3.png";
-var img4 = "images\dice4.png";
-var img5 = "images\dice5.png";
-var img6 = "images\dice6.png";
+var img1 = "D:\Udemy\Dicee+Challenge+-+Starting+Files\images\dice1.png";
+var img2 = "D:\Udemy\Dicee+Challenge+-+Starting+Files\images\dice2.png";
+var img3 = "D:\Udemy\Dicee+Challenge+-+Starting+Files\images\dice3.png";
+var img4 = "D:\Udemy\Dicee+Challenge+-+Starting+Files\images\dice4.png";
+var img5 = "D:\Udemy\Dicee+Challenge+-+Starting+Files\images\dice5.png";
+var img6 = "D:\Udemy\Dicee+Challenge+-+Starting+Files\images\dice6.png";
 var img = [img1, img2, img3, img4, img5, img6];
 
 var num1 = Math.floor(Math.random() * 6);
