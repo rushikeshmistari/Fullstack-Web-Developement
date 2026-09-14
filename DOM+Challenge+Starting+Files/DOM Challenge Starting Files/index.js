@@ -1,2 +1,2 @@
-var ele = document.firstChild.lastChile.querySelector("ul").lastChild;
+var ele = document.firstChild.lastChild.querySelector("ul").lastChild;
 ele.innerHTML = "Raju";
