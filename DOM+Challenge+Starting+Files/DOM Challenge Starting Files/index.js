@@ -1,2 +1,2 @@
-var el = document .querySelector("ul").children[1].children[1];
+var el = document .querySelector("ul").children[0].children[0];
 el.style.color = "red";
