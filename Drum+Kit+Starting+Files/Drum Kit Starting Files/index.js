@@ -1,4 +1,4 @@
 var func = function () {
     alert("I got clicked!");
 };
-document.querySelector("button").addEventListener("click", func);
+document.querySelectorAll("button").addEventListener("click", func);
