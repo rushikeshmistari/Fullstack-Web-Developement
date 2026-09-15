@@ -1,8 +1,4 @@
-// document.querySelector(".w.drum").addEventListener("click",function() {
-//     alert("I got Clicked button w !!!");
-// });
-// 
-// });
+
 // document.querySelector(".s.drum").addEventListener("click", function() {
 //     alert("You clicked button s !!!");
 // });
@@ -23,6 +19,6 @@ document.querySelector(".w.drum").addEventListener("click", function() {
     audio.play();
 });
 document.querySelector(".a.drum").addEventListener("click", function(){
-    var audio = new Audio("Drum Kit Starting Files/sounds/tom-2.mp3");
+    var audio = new Audio("sounds/tom-2.mp3");
     audio.play();
 });
