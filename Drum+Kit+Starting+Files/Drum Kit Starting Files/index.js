@@ -1,6 +1,7 @@
 document.querySelector(".w.drum").addEventListener("click", function() {
     var audio = new Audio("sounds/tom-1.mp3");
     audio.play();
+    document.querySelector(".w.drum").style.color = "white";
 });
 document.querySelector(".a.drum").addEventListener("click", function(){
     var audio = new Audio("sounds/tom-2.mp3");
