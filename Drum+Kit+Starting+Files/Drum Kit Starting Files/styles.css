@@ -16,37 +16,35 @@ footer {
   font-family: sans-serif;
 }
 
-.w.drum {
-  body {
+.w{
   background-image: url('Drum Kit Starting Files/images/tom1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
 
 }
 
-.a.drum {
+.a{
 
 }
 
-.s.drum {
+.s{
 
 }
 
-.d.drum {
+.d{
 
 }
 
-.j.drum {
+.j{
 
 }
 
-.k.drum {
+.k{
 
 }
-.l.drum {
+.l{
 
 }
 
