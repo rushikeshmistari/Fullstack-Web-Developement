@@ -9,11 +9,11 @@ inquirer
         {
             type: 'input',
             name: 'username',
-            message: 'What is your name?'
+            message: 'What is your url?'
         }
     ])
     .then((answers) => {
-        console.log('Your name is:', answers.username);
+        console.log('Your url is:', answers.username);
     })
     .catch((error) => {
         if (error.isTtyError) {
@@ -26,7 +26,7 @@ inquirer
 import qr from 'qr-image';
 
 var qr_svg = qr.image(answers.username, { type: 'png' });
-qr_svg.pipe(require('fs').createWriteStream('i_love_qr.png'));
+qr_svg.pipe(require('fs').createWriteStream('qr_img.png'));
 var svg_string = qr.imageSync(answers.username, { type: 'svg' });
 
 import fs from 'fs';
@@ -35,4 +35,4 @@ fs.writeFile("Username.txt", answers.username, (err) => {
     console.log("The file has been saved!");
 });
 
-console.log
+console.log("QR code generated!");
