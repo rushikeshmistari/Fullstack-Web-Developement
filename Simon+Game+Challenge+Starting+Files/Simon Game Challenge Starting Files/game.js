@@ -1,4 +1,4 @@
-
+var userClickedPattern = [];
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
@@ -15,5 +15,7 @@ $(document).keypress(function nextSequence() {
     audio.play();
 
     var userChosenColour = $(this).attr("id");
-    alert(userChosenColour);
+    userClickedPattern.push(userChosenColour);
+    console.log(userChosenColour);
+    console.log(userClickedPattern);
 });
