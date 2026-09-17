@@ -1,9 +1,20 @@
-var userClickedPattern = [];
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
 
-$(document).keypress(function nextSequence() {
+var userClickedPattern = [];
+
+$(".btn").click(function() {
+
+    var userChosenColour = $(this).attr("id");
+
+    userClickedPattern.push(userChosenColour);
+
+  //console.log(userClickedPattern);
+
+});
+
+function nextSequence() {
 
     var randomNumber = Math.floor(Math.random() * 4);
     var randomChosenColour = buttonColours[randomNumber];
@@ -13,9 +24,4 @@ $(document).keypress(function nextSequence() {
 
     var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
     audio.play();
-
-    var userChosenColour = $(this).attr("id");
-    userClickedPattern.push(userChosenColour);
-    console.log(userChosenColour);
-    console.log(userClickedPattern);
-});
+}
