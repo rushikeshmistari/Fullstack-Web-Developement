@@ -7,5 +7,5 @@ fs.writeFile("message.txt","Hello from Rushikesh", (err) => {
 
 fs.readFile('message.txt', (err, data) => {
     if (err) throw err;
-    console.log(data);
+    console.log(data.toString());
 });
