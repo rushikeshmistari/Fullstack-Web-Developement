@@ -1,1 +1,1 @@
-console.log("hello fron Rushikesh");
+console.log("hello from Rushikesh");
