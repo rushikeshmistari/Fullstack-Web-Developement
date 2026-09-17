@@ -7,7 +7,7 @@ function nextSequence() {
 };
 var randomNumber = Math.floor(Math.random() * 4);
 
-var randomChosenColor = buttonColors[randomNumber];
+var randomChoosenColor = buttonColors[randomNumber];
 gamePattern.push(randomChoosenColor);
 
 if (randomNumber === 0) {
