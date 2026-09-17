@@ -8,7 +8,7 @@ inquirer
     .prompt([
         {
             type: 'input',
-            name: 'username',
+            url: 'username',
             message: 'What is your url?'
         }
     ])
