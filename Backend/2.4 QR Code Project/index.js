@@ -44,16 +44,3 @@ inquirer
 
     });
 
-import qr from 'qr-image';
-
-var qr_svg = qr.image(answers.username, { type: 'png' });
-qr_svg.pipe(require('fs').createWriteStream('qr_img.png'));
-var svg_string = qr.imageSync(answers.username, { type: 'svg' });
-
-import fs from 'fs';
-fs.writeFile("Username.txt", answers.username, (err) => {
-    if (err) throw err;
-    console.log("The file has been saved!");
-});
-
-console.log("QR code generated!");
