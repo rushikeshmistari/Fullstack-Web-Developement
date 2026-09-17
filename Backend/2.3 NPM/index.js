@@ -1,8 +1,8 @@
-import generateName from 'sillyname';
-// var generateName = require('sillyname');
-var sillyName = generateName();
+import * as sillyname from 'sillyname';
+import superheroes from 'superheroes';
+
+var sillyName = sillyname.generateName();
 console.log(`My silly name is: ${sillyName}`);
 
-import superheroes from 'superheroes';
 var name = superheroes.random();
 console.log(`My superhero name is: ${name}`);
