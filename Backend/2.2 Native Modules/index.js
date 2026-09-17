@@ -5,7 +5,7 @@ fs.writeFile("message.txt","Hello from Rushikesh", (err) => {
     console.log("File has been created successfully");
 });
 
-fs.readFile('message.txt', (err, data) => {
+fs.readFile('message.txt',"utf8", (err, data) => {
     if (err) throw err;
-    console.log(data.toString());
+    console.log(data());
 });
