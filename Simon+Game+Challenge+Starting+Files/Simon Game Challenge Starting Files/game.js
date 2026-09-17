@@ -14,6 +14,6 @@ $(document).keypress(function nextSequence() {
     var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
     audio.play();
 
-    var userChosenColor = $(this).attr("id");
-    console.log(userChosenColor);
+    var userChosenColour = $(this).attr("id");
+    alert(userChosenColour);
 });
