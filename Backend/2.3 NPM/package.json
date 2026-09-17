@@ -4,7 +4,6 @@
   "description": "I'M learning about npm",
   "license": "ISC",
   "author": "Rushikesh",
-  "type": "commonjs",
   "main": "index.js",
   "type" : "module",
   "scripts": {
