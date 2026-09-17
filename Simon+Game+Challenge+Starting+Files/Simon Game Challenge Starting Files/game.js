@@ -3,7 +3,7 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
 
-function nextSequence() {
+$(document).keypress(function nextSequence() {
 
     var randomNumber = Math.floor(Math.random() * 4);
     var randomChosenColour = buttonColours[randomNumber];
@@ -13,7 +13,4 @@ function nextSequence() {
 
     var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
     audio.play();
-};
-nextSequence();
-nextSequence();
-nextSequence();
+});
