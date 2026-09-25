@@ -1,0 +1,12 @@
+{
+  "name": "3.3-http-request",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Rushikesh Mistari",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "1"
+  }
+}
