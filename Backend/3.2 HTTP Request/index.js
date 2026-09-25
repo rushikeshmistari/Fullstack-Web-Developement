@@ -7,11 +7,11 @@ app.get("/",(req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-    console.log("Request received at /contact");
+    res.send("Request received at /contact");
 });
 
 app.get("/about", (req, res) => {
-    console.log("Request received at /about");
+    res.send("Request received at /about");
 });
 
 app.listen(port, () => {
